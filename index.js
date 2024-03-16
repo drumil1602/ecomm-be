@@ -4,7 +4,7 @@ import cors from "cors";
 const app = express();
 
 app.use(cors({
-    origin: ['https://ecomm-fe.onrender.com',"*"]
+    origin: ['https://ecomm-fe.onrender.com',"https://everybody-sheet.codedamn.app/"]
 }));
 
 app.get("/api",(req,res)=>{
